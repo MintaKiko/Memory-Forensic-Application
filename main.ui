@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>25</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>File</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>55</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Commend</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="filename">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>761</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="browse">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>10</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Browse</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>98</x>
+      <y>50</y>
+      <width>761</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-f</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>-h</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="download">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>610</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Download</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="generate">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>110</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Generate Argument</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="argument">
+    <property name="geometry">
+     <rect>
+      <x>98</x>
+      <y>80</y>
+      <width>761</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>windows.info</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.pstree</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.pslist</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.dumpfiles</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.memmap</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.handles</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.procdump</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.dlllis</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.cmdline</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.netscan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.netstat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.registry.hivescan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.registry.hivelist</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.registry.printkey</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.psscan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.filescan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.dumpfiles</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.malfind</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>windows.vadyarascan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>yarascan.yarascan</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>961</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="filename_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>960</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>610</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="generate_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Execute</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>115</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-o “/path/to/dir”</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>115</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>‑‑dump ‑‑pid &lt;PID&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
